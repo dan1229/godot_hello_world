@@ -1,0 +1,33 @@
+[gd_scene format=2]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 142.0
+margin_top = 40.0
+margin_right = 710.0
+margin_bottom = 462.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel"]
+margin_left = 2.0
+margin_top = 4.0
+margin_right = 564.0
+margin_bottom = 423.0
+text = "this is a label"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Panel"]
+anchor_right = 0.391
+anchor_bottom = 0.564
+margin_left = 248.0
+margin_top = 264.0
+margin_right = 111.912
+margin_bottom = 65.992
+text = "click me"
