@@ -1,4 +1,6 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://HelloWorld.gd" type="Script" id=1]
 
 [node name="Spatial" type="Spatial"]
 
@@ -7,6 +9,7 @@ margin_left = 142.0
 margin_top = 40.0
 margin_right = 710.0
 margin_bottom = 462.0
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -31,3 +34,5 @@ margin_top = 264.0
 margin_right = 111.912
 margin_bottom = 65.992
 text = "click me"
+
+[connection signal="pressed" from="Panel/Button" to="Panel" method="_on_Button_pressed"]
